@@ -119,8 +119,19 @@ h1 {
 
 .esterno {
     position: relative;
-    display: inline-block;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
     margin-top: 30px;
+}
+
+.esterno img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 0 50px rgba(214, 179, 106, 0.5);
 }
 
 .esterno img {
