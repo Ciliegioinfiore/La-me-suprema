@@ -139,9 +139,8 @@ body{
     inset:0;
 
     background:
-    radial-gradient(circle at 20% 60%, rgba(255,255,255,.10), transparent 35%),
-    radial-gradient(circle at 70% 40%, rgba(255,255,255,.08), transparent 30%),
-    radial-gradient(circle at 50% 90%, rgba(255,255,255,.12), transparent 40%);
+    background:
+radial-gradient(circle at 50% 50%, rgba(255,255,255,.35), transparent 40%);
 
     animation:nebbia 18s ease-in-out infinite alternate;
 
@@ -156,7 +155,7 @@ body{
 
         transform:translateX(-20px);
 
-        opacity:.45;
+        opacity:.8;
 
     }
 
