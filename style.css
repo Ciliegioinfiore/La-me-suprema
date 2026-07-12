@@ -52,8 +52,8 @@ body{
 
     position:absolute;
 
-    left:50%;
-    bottom:11%;
+    left:58%;
+    bottom:25%;
 
     transform:translateX(-50%);
 
@@ -61,7 +61,6 @@ body{
     height:170px;
 
     border:3px solid #d7b15d;
-
     border-radius:60px 60px 0 0;
 
     background:rgba(255,215,120,.08);
