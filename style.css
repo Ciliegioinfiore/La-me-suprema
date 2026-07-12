@@ -138,11 +138,13 @@ body{
 
     inset:0;
 
-    background:red;
+    background:rgba(255,255,255,0.15);
 
-    opacity:0.5;
+    animation:nebbia 18s ease-in-out infinite alternate;
 
-    z-index:20;
+    pointer-events:none;
+
+    z-index:5;
 
 }
 @keyframes nebbia{
