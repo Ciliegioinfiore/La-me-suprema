@@ -132,3 +132,40 @@ body{
     }
 
 }
+.nebbia{
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+    radial-gradient(circle at 20% 60%, rgba(255,255,255,.10), transparent 35%),
+    radial-gradient(circle at 70% 40%, rgba(255,255,255,.08), transparent 30%),
+    radial-gradient(circle at 50% 90%, rgba(255,255,255,.12), transparent 40%);
+
+    animation:nebbia 18s ease-in-out infinite alternate;
+
+    pointer-events:none;
+
+    z-index:4;
+
+}
+@keyframes nebbia{
+
+    from{
+
+        transform:translateX(-20px);
+
+        opacity:.45;
+
+    }
+
+    to{
+
+        transform:translateX(20px);
+
+        opacity:.65;
+
+    }
+
+}
