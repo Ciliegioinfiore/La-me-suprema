@@ -60,10 +60,10 @@ body{
     width:95px;
     height:170px;
 
-    border:3px solid #d7b15d;
+    border:3px solid transparent;
     border-radius:60px 60px 0 0;
 
-    background:rgba(255,215,120,.08);
+    background:rgba(255,215,120,.12);
 
     box-shadow:
         0 0 20px rgba(255,215,120,.35),
@@ -80,8 +80,9 @@ body{
     transform:translateX(-50%) scale(1.05);
 
     box-shadow:
-        0 0 18px rgba(255,215,120,.5),
-        0 0 40px rgba(255,215,120,.3);
+        0 0 25px rgba(255,215,120,.8),
+        0 0 60px rgba(255,215,120,.5);
+    background:rgba(255,215,120,.25);
 
 }
 
@@ -157,7 +158,28 @@ body{
     }
 
     to{
+.scena{
 
+    animation:luce 12s ease-in-out infinite alternate;
+
+}
+
+
+@keyframes luce{
+
+    from{
+
+        filter:brightness(1);
+
+    }
+
+    to{
+
+        filter:brightness(1.08);
+
+    }
+
+}
         transform:translateX(20px);
 
         opacity:.65;
