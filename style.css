@@ -197,11 +197,7 @@ body{
     }
 
 }
-        transform:translateX(20px);
-
-        opacity:.65;
-
-    }
+        
 .lucciola{
 
     position:absolute;
@@ -261,6 +257,7 @@ body{
         opacity:0;
 
     }
+}
 
 .interno-serra{
 
