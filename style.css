@@ -262,4 +262,83 @@ body{
 
     }
 
+.interno-serra{
+
+    width:100vw;
+    height:100vh;
+
+    overflow:hidden;
+
+    background:
+    linear-gradient(
+        rgba(20,35,25,.35),
+        rgba(10,20,15,.5)
+    ),
+    url("IMG_0699.png");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+}
+
+
+.contenuto-serra{
+
+    text-align:center;
+
+    color:#f5e8c8;
+
+    max-width:700px;
+
+}
+
+
+.contenuto-serra h1{
+
+    font-size:45px;
+
+    letter-spacing:5px;
+
+}
+
+
+.contenuto-serra p{
+
+    font-size:22px;
+
+    margin-top:25px;
+
+}
+
+
+.esplorazione{
+
+    display:flex;
+
+    gap:25px;
+
+    margin-top:50px;
+
+    justify-content:center;
+
+}
+
+
+.elemento{
+
+    padding:20px;
+
+    border:1px solid #d7b15d;
+
+    background:rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    color:#f5e8c8;
+
 }
