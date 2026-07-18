@@ -339,3 +339,124 @@ body{
     color:#f5e8c8;
 
 }
+/* ========================= */
+/* ROSETO */
+/* ========================= */
+
+.scena-roseto{
+
+    position:relative;
+
+    width:100vw;
+    height:100vh;
+
+    background:
+    linear-gradient(rgba(20,25,20,.45),
+    rgba(15,20,15,.55)),
+    url("IMG_0699.png");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+}
+
+.overlay{
+
+    position:absolute;
+    inset:0;
+
+    backdrop-filter:blur(2px);
+
+}
+
+.contenuto-roseto{
+
+    position:relative;
+
+    z-index:2;
+
+    text-align:center;
+
+    color:#f5e8c8;
+
+    width:80%;
+    max-width:700px;
+
+}
+
+.contenuto-roseto h1{
+
+    font-size:56px;
+
+    margin-bottom:20px;
+
+}
+
+.citazione{
+
+    font-size:24px;
+
+    font-style:italic;
+
+    margin-bottom:50px;
+
+}
+
+.missioni{
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(214,179,106,.4);
+
+    border-radius:20px;
+
+    padding:30px;
+
+}
+
+.missioni ul{
+
+    list-style:none;
+
+    margin-top:20px;
+
+}
+
+.missioni li{
+
+    padding:10px;
+
+    font-size:20px;
+
+}
+
+.porta-serra{
+
+    display:inline-block;
+
+    margin-top:50px;
+
+    padding:18px 45px;
+
+    border:2px solid #d6b36a;
+
+    border-radius:50px;
+
+    color:#f5e8c8;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.porta-serra:hover{
+
+    background:rgba(214,179,106,.2);
+
+}
